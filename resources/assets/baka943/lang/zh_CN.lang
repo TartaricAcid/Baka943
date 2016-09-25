@@ -1,0 +1,9 @@
+#Block
+tile.blockGuide.name=定位板
+tile.invisibleLight.name=隐藏光源
+
+#ItemGroup
+itemGroup.baka943=バカ⑨⑩酸
+
+#ToolTip
+baka943.tip.block.invisible_light=§a这是由一个バカ的人做出来的一个バカ的方块

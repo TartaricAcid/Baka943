@@ -1,0 +1,9 @@
+#Block
+tile.blockGuide.name=Guide Block
+tile.invisibleLight.name=Invisible Light
+
+#ItemGroup
+itemGroup.baka943=Baka943
+
+#ToolTip
+baka943.tip.block.invisible_light=§aJust A Simple Invisible Light

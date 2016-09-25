@@ -1,0 +1,16 @@
+[
+{
+  "modid": "baka943",
+  "name": "Baka943",
+  "description": "A Simple Minecraft 1.10.2 Mod, Just A Easy Exercise",
+  "version": "",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tartaric_acid"],
+  "credits": "Notch, Cpw, etc.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

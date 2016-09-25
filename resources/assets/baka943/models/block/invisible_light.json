@@ -1,0 +1,4 @@
+{
+    "parent": "block/cross",
+    "textures": {"cross": "baka943:blocks/invisible_light"}
+}

@@ -1,0 +1,4 @@
+{
+    "parent": "block/cube_all",
+    "textures": {"all": "baka943:blocks/block_guide"}
+}
