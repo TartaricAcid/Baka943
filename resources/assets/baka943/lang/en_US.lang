@@ -2,8 +2,14 @@
 tile.blockGuide.name=Guide Block
 tile.invisibleLight.name=Invisible Light
 
+#Item
+item.infiniteHoeActive.name=Infinite Hoe
+item.infiniteHoeInactive.name=Infinite Hoe
+
 #ItemGroup
 itemGroup.baka943=Baka943
 
 #ToolTip
-baka943.tip.block.invisible_light=§aJust A Simple Invisible Light
+baka943.tip.block.invisible_light=§3Just A Simple Invisible Light
+baka943.tip.item.infinite_hoe_active=§4Active
+baka943.tip.item.infinite_hoe_inactive=§eInactive

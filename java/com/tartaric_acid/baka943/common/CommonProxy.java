@@ -3,6 +3,7 @@ package com.tartaric_acid.baka943.common;
 import com.tartaric_acid.baka943.CraftingLoader;
 import com.tartaric_acid.baka943.CreativeTabsLoader;
 import com.tartaric_acid.baka943.block.BlockLoader;
+import com.tartaric_acid.baka943.item.ItemLoader;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -14,6 +15,7 @@ public class CommonProxy
     {
     	new CreativeTabsLoader(event);    	
         new BlockLoader(event);
+        new ItemLoader(event);
     }
 
     public void init(FMLInitializationEvent event)

@@ -2,8 +2,14 @@
 tile.blockGuide.name=定位板
 tile.invisibleLight.name=隐藏光源
 
+#Item
+item.infiniteHoeActive.name=无限之锄
+item.infiniteHoeInactive.name=无限之锄
+
 #ItemGroup
 itemGroup.baka943=バカ⑨⑩酸
 
 #ToolTip
-baka943.tip.block.invisible_light=§a这是由一个バカ的人做出来的一个バカ的方块
+baka943.tip.block.invisible_light=§3这是由一个バカ的人做出来的一个バカ的方块
+baka943.tip.item.infinite_hoe_active=§4激活
+baka943.tip.item.infinite_hoe_inactive=§e未激活
