@@ -15,7 +15,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import vazkii.botania.api.BotaniaAPI;
 import vazkii.botania.api.recipe.RecipeManaInfusion;
-import vazkii.botania.common.block.ModBlocks;
+import vazkii.botania.common.item.ModItems;
+import vazkii.botania.common.lib.LibOreDict;
 
 public class CraftingLoader
 {
@@ -47,16 +48,16 @@ public class CraftingLoader
     	
     	
     	//Recipe For Infinite Hoe Inactive    	
-    	GameRegistry.addShapedRecipe(new ItemStack(ItemLoader.infiniteHoeInactive), new Object[]
+    	GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ItemLoader.infiniteHoeInactive), new Object[]
     	        {
     	                "## ", " * ", " * ",
-    	                '#', new ItemStack(ModBlocks.storage, 1, 1), 
+    	                '#', "ingotTerrasteel",
     	                '*', Items.STICK
-    	        });   	
+    	        }));   	
     	    	
     	
     	woodRecipes = new ArrayList<RecipeManaInfusion>();
-    	woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(BlockLoader.invisibleLight, 1), new ItemStack(Blocks.TORCH, 1), 40));
+    	woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(BlockLoader.invisibleLight, 1), new ItemStack(Blocks.TORCH, 1), 300));
     	woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(ItemLoader.infiniteHoeActive, 1), new ItemStack(ItemLoader.infiniteHoeInactive, 1), 1000000));
     }
 }
