@@ -7,8 +7,8 @@
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["tartaric_acid"],
-  "credits": "Notch, Cpw, etc.",
+  "authorList": ["tartaric_acid, CN_JJN"],
+  "credits": "CN_JJN, Thanks for you help"
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -15,7 +15,7 @@ public class Baka943
 {
     public static final String MODID = "baka943";
     public static final String NAME = "Baka943";
-    public static final String VERSION = "1.0.2";
+    public static final String VERSION = "1.0.3";
 
     @Instance(Baka943.MODID)
     public static Baka943 instance;
