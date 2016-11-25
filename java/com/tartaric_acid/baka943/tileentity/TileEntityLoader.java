@@ -11,8 +11,8 @@ public class TileEntityLoader {
 
     public TileEntityLoader()
     {
-    	if (ConfigLoader.useTileEntityToTickInvisibleLight)
-    		registerTileEntity(TileInvisibleLight.class, "invisible_light");
+        if (ConfigLoader.useTileEntityToTickInvisibleLight)
+            registerTileEntity(TileInvisibleLight.class, "invisible_light");
     }
 
     public void registerTileEntity(Class<? extends TileEntity> tileEntityClass, String id)

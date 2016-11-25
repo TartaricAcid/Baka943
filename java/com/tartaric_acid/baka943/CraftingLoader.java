@@ -20,8 +20,8 @@ import vazkii.botania.common.lib.LibOreDict;
 
 public class CraftingLoader
 {
-	public static List<RecipeManaInfusion> woodRecipes;
-	
+    public static List<RecipeManaInfusion> woodRecipes;
+    
     public CraftingLoader()
     {
         registerRecipe();
@@ -29,36 +29,36 @@ public class CraftingLoader
 
     private static void registerRecipe()
     {      
-    	
-    	//Recipe For Guide Block
-    	GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.blockGuide), new Object[]
-    	        {
-    	                "###", "#*#", "###",
-    	                '#', Items.IRON_INGOT,
-    	                '*', Blocks.WOOL
-    	        });
-    	
-    	//Recipe For Invisible Light
-    	GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.invisibleLight), new Object[]
-    	        {
-    	                "##",
-    	                '#', Blocks.TORCH
-    	        });
-    	GameRegistry.addShapelessRecipe(new ItemStack(Blocks.TORCH, 2), BlockLoader.invisibleLight);
-    	
-    	
-    	//Recipe For Infinite Hoe Inactive    	
-    	GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ItemLoader.infiniteHoeInactive), new Object[]
-    	        {
-    	                "## ", " * ", " * ",
-    	                '#', "ingotTerrasteel",
-    	                '*', Items.STICK
-    	        }));   	
-    	    	
-    	
-    	woodRecipes = new ArrayList<RecipeManaInfusion>();
-    	woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(BlockLoader.invisibleLight, 1), new ItemStack(Blocks.TORCH, 1), 300));
-    	woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(ItemLoader.infiniteHoeActive, 1), new ItemStack(ItemLoader.infiniteHoeInactive, 1), 1000000));
+        
+        //Recipe For Guide Block
+        GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.blockGuide), new Object[]
+                {
+                        "###", "#*#", "###",
+                        '#', Items.IRON_INGOT,
+                        '*', Blocks.WOOL
+                });
+        
+        //Recipe For Invisible Light
+        GameRegistry.addShapedRecipe(new ItemStack(BlockLoader.invisibleLight), new Object[]
+                {
+                        "##",
+                        '#', Blocks.TORCH
+                });
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.TORCH, 2), BlockLoader.invisibleLight);
+        
+        
+        //Recipe For Infinite Hoe Inactive        
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ItemLoader.infiniteHoeInactive), new Object[]
+                {
+                        "## ", " * ", " * ",
+                        '#', "ingotTerrasteel",
+                        '*', Items.STICK
+                }));       
+                
+        
+        woodRecipes = new ArrayList<RecipeManaInfusion>();
+        woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(BlockLoader.invisibleLight, 1), new ItemStack(Blocks.TORCH, 1), 300));
+        woodRecipes.add(BotaniaAPI.registerManaAlchemyRecipe(new ItemStack(ItemLoader.infiniteHoeActive, 1), new ItemStack(ItemLoader.infiniteHoeInactive, 1), 1000000));
     }
 }
-        
+

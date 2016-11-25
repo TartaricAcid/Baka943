@@ -14,8 +14,8 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class InfiniteHoeActive extends ItemHoe
 {
-	public static final ToolMaterial InfiniteToolMaterial = EnumHelper.addToolMaterial("INFINITE", 2, 0, 3.0F, 2.0F, 14);
-	
+    public static final ToolMaterial InfiniteToolMaterial = EnumHelper.addToolMaterial("INFINITE", 2, 0, 3.0F, 2.0F, 14);
+    
     public InfiniteHoeActive()
     {
         super(InfiniteToolMaterial);
@@ -24,10 +24,10 @@ public class InfiniteHoeActive extends ItemHoe
     }
     
     @Override
-	@SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack stack, EntityPlayer player, List<String> tooltip, boolean advanced)
+    @SideOnly(Side.CLIENT)
+    public void addInformation(ItemStack stack, EntityPlayer player, List<String> tooltip, boolean advanced)
     {
-		int meta = stack.getMetadata();	
-		tooltip.add(I18n.format("baka943.tip.item.infinite_hoe_active", meta));
+        int meta = stack.getMetadata();    
+        tooltip.add(I18n.format("baka943.tip.item.infinite_hoe_active", meta));
     }  
 }

@@ -8,13 +8,13 @@ import net.minecraft.util.ITickable;
 
 public class TileInvisibleLight extends TileEntity implements ITickable {
 
-	@Override
-	public void update() {
-		if (worldObj.isRemote) {
-			IBlockState state = worldObj.getBlockState(pos);
-			InvisibleLight invisibleLight = (InvisibleLight) state.getBlock();
-			invisibleLight.updateBlockState(state, worldObj, pos);
-		}
-	}
+    @Override
+    public void update() {
+        if (worldObj.isRemote) {
+            IBlockState state = worldObj.getBlockState(pos);
+            InvisibleLight invisibleLight = (InvisibleLight) state.getBlock();
+            invisibleLight.updateBlockState(state, worldObj, pos);
+        }
+    }
 
 }

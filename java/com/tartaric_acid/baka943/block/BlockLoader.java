@@ -11,9 +11,9 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockLoader {
-	
-	public static Block blockGuide = new BlockGuide();	
-	public static Block invisibleLight = new InvisibleLight();
+    
+    public static Block blockGuide = new BlockGuide();    
+    public static Block invisibleLight = new InvisibleLight();
     public BlockLoader(FMLPreInitializationEvent event)
     {
         register(blockGuide, "block_guide");       

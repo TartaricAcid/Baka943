@@ -15,8 +15,8 @@ public class CommonProxy
 {
     public void preInit(FMLPreInitializationEvent event)
     {
-    	new ConfigLoader(event);
-    	new CreativeTabsLoader(event);    	
+        new ConfigLoader(event);
+        new CreativeTabsLoader(event);        
         new BlockLoader(event);
         new ItemLoader(event);
         new TileEntityLoader();
@@ -24,7 +24,7 @@ public class CommonProxy
 
     public void init(FMLInitializationEvent event)
     {
-    	new CraftingLoader();
+        new CraftingLoader();
     }
 
     public void postInit(FMLPostInitializationEvent event)
