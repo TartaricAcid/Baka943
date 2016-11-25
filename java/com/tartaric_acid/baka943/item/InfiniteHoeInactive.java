@@ -22,10 +22,10 @@ public class InfiniteHoeInactive extends Item
     }
     
     @Override
-	@SideOnly(Side.CLIENT)
-	public void addInformation(ItemStack stack, EntityPlayer player, List<String> tooltip, boolean advanced)
+    @SideOnly(Side.CLIENT)
+    public void addInformation(ItemStack stack, EntityPlayer player, List<String> tooltip, boolean advanced)
     {
-		int meta = stack.getMetadata();	
-		tooltip.add(I18n.format("baka943.tip.item.infinite_hoe_inactive", meta));
+        int meta = stack.getMetadata();    
+        tooltip.add(I18n.format("baka943.tip.item.infinite_hoe_inactive", meta));
     }
 }
