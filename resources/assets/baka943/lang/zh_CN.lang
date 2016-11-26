@@ -16,4 +16,4 @@ baka943.tip.item.infinite_hoe_inactive=§e未激活
 
 #Config
 baka943.config.useTEToTickInvisbleLightDes=是否使用TileEntity来即时更新光源的显形隐形。设置为true会取得比较好的更新效果，但是过多的TileEntity可能会导致潜在的延迟。
-baka943.config.showNonTEInvisbleLightDes=这里设置为true，在使用useTileEntityToTickInvisibleLight模式时候，将不会使用TileEntity来更新光源。但是更新过程中可能会出现延迟。
+baka943.config.showNonTEInvisbleLightDes=这里设置为true，在“使用TileEntity来即时更新光源的显形隐形的功能”打开时，将不会对旧有的光源附加TileEntity（这也意味着它们不会被显示出来）。
