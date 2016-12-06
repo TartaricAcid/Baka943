@@ -17,3 +17,4 @@ baka943.tip.item.infinite_hoe_inactive=§eInactive
 #Config
 baka943.config.useTEToTickInvisbleLightDes=Whether using a TileEntity to help tick the invisible light. Set to true will enhance the performance of Invisible Light, but might cause a potential lag.
 baka943.config.showNonTEInvisbleLightDes=Set to true will show the invisible light which doesn't have a TileEntity when the useTileEntityToTickInvisibleLight mode is on.
+baka943.config.areYouHentai=Are you HENTAI? (true: yes, you are right; false: no, I am a serious people)

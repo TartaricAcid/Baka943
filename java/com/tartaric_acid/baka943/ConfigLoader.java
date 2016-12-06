@@ -13,6 +13,7 @@ public class ConfigLoader {
     
     public static boolean useTileEntityToTickInvisibleLight;
     public static boolean showNonTEInvisibleLight;
+    public static boolean youAreHentai;
     
     public ConfigLoader(FMLPreInitializationEvent event)
     {
@@ -25,11 +26,17 @@ public class ConfigLoader {
     public static void load()
     {
         logger.info("Started loading config.");
+        
         String useTEToTickInvisbleLightDes = I18n.format("baka943.config.useTEToTickInvisbleLightDes");
         String showNonTEInvisbleLightDes = I18n.format("baka943.config.showNonTEInvisbleLightDes");
-        useTileEntityToTickInvisibleLight = config.get(Configuration.CATEGORY_GENERAL, "useTileEntityToTickInvisibleLight", true, useTEToTickInvisbleLightDes).getBoolean();
-        showNonTEInvisibleLight = config.get(Configuration.CATEGORY_GENERAL, "showAllInvisibleLight", true, showNonTEInvisbleLightDes).getBoolean();
+        String areYouHentai = I18n.format("baka943.config.areYouHentai");
+        
+        useTileEntityToTickInvisibleLight = config.get(Configuration.CATEGORY_GENERAL, "useTileEntityToTickInvisibleLight", false, useTEToTickInvisbleLightDes).getBoolean();
+        showNonTEInvisibleLight = config.get(Configuration.CATEGORY_GENERAL, "showAllInvisibleLight", false, showNonTEInvisbleLightDes).getBoolean();
+        youAreHentai = config.get(Configuration.CATEGORY_GENERAL, "areYouHentai", true, areYouHentai).getBoolean();
+        
         config.save();
+        
         logger.info("Finished loading config.");
     }
 
