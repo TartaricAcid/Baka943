@@ -10,7 +10,7 @@ import net.minecraftforge.common.AchievementPage;
 public class AchievementLoader
 {
     public static Achievement kingOfHentai = new Achievement("baka943.achievement.kingOfHentai",
-            "baka943.kingOfHentai", 0, 0, ItemLoader.itemHuaJi, null);
+            "baka943.kingOfHentai", 0, 0, ItemLoader.itemBaka, null);
     
     public static AchievementPage pageBaka943 = new AchievementPage(Baka943.NAME, kingOfHentai);
 

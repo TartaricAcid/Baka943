@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "baka943:items/item_hua_ji"
+        "layer0": "baka943:items/item_baka"
     },
     "display": {
         "thirdperson": {

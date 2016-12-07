@@ -6,11 +6,11 @@ import com.tartaric_acid.baka943.CreativeTabsLoader;
 
 import net.minecraft.item.Item;
 
-public class ItemHuaJi extends Item
+public class ItemBaka extends Item
 {
-    public ItemHuaJi()
+    public ItemBaka()
     {
         super();
-        this.setUnlocalizedName("itemHuaJi");
+        this.setUnlocalizedName("itemBaka");
     }
 }

@@ -13,13 +13,13 @@ public class ItemLoader
 {
     public static Item infiniteHoeInactive = new InfiniteHoeInactive();
     public static Item infiniteHoeActive = new InfiniteHoeActive();
-    public static Item itemHuaJi = new ItemHuaJi();
+    public static Item itemBaka = new ItemBaka();
 
     public ItemLoader(FMLPreInitializationEvent event)
     {
         register(infiniteHoeInactive, "infinite_hoe_inactive");
         register(infiniteHoeActive, "infinite_hoe_active");
-        register(itemHuaJi, "item_hua_ji");
+        register(itemBaka, "item_baka");
     }
 
     private static void register(Item item, String name)
@@ -32,7 +32,7 @@ public class ItemLoader
     {
         registerRender(infiniteHoeInactive);
         registerRender(infiniteHoeActive);
-        registerRender(itemHuaJi);
+        registerRender(itemBaka);
     }    
 
     @SideOnly(Side.CLIENT)
