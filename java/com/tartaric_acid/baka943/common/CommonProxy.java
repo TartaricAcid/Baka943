@@ -3,6 +3,7 @@ package com.tartaric_acid.baka943.common;
 import com.tartaric_acid.baka943.ConfigLoader;
 import com.tartaric_acid.baka943.CraftingLoader;
 import com.tartaric_acid.baka943.CreativeTabsLoader;
+import com.tartaric_acid.baka943.achievement.AchievementLoader;
 import com.tartaric_acid.baka943.block.BlockLoader;
 import com.tartaric_acid.baka943.item.ItemLoader;
 import com.tartaric_acid.baka943.tileentity.TileEntityLoader;
@@ -26,6 +27,7 @@ public class CommonProxy
     {
         new CraftingLoader();
         new EventLoader();
+        new AchievementLoader();
     }
 
     public void postInit(FMLPostInitializationEvent event)

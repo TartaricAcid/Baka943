@@ -1,3 +1,13 @@
+#Acievement
+achievement.baka943.kingOfHentai=变态之王
+achievement.baka943.kingOfHentai.desc=从签订契约的女仆酱身上得到柑♂橘汁。
+
+#Config
+baka943.config.useTEToTickInvisbleLightDes=是否使用TileEntity来即时更新光源的显形隐形。设置为true会取得比较好的更新效果，但是过多的TileEntity可能会导致潜在的延迟。
+baka943.config.showNonTEInvisbleLightDes=这里设置为true，在“使用TileEntity来即时更新光源的显形隐形的功能”打开时，将不会对旧有的光源附加TileEntity（这也意味着它们不会被显示出来）。
+baka943.config.areYouHentai=你是个变态么？（true：是的，我是个变态；false：不，JJN才是变态）
+baka943.config.dropOrangeJuiceChance=从女仆酱身上得到柑橘汁的几率。 【默认：0.1；范围：0 ~ 1.0】
+
 #Block
 tile.blockGuide.name=定位板
 tile.invisibleLight.name=隐藏光源
@@ -14,7 +24,3 @@ baka943.tip.block.invisible_light=§3这是由一个バカ的人做出来的一�
 baka943.tip.item.infinite_hoe_active=§4激活
 baka943.tip.item.infinite_hoe_inactive=§e未激活
 
-#Config
-baka943.config.useTEToTickInvisbleLightDes=是否使用TileEntity来即时更新光源的显形隐形。设置为true会取得比较好的更新效果，但是过多的TileEntity可能会导致潜在的延迟。
-baka943.config.showNonTEInvisbleLightDes=这里设置为true，在“使用TileEntity来即时更新光源的显形隐形的功能”打开时，将不会对旧有的光源附加TileEntity（这也意味着它们不会被显示出来）。
-baka943.config.areYouHentai=你是个变态么？（true：是的，我是个变态；false：不，JJN才是变态）

@@ -2,6 +2,7 @@ package com.tartaric_acid.baka943.common;
 
 import com.pam.harvestcraft.item.ItemRegistry;
 import com.tartaric_acid.baka943.ConfigLoader;
+import com.tartaric_acid.baka943.achievement.AchievementLoader;
 
 import net.blacklab.lmr.entity.EntityLittleMaid;
 import net.blacklab.lmr.util.EnumSound;
@@ -35,9 +36,11 @@ public class EventLoader {
                         
         if (itemstack != null && player.isSneaking() && !event.getWorld().isRemote ) {        	
             Item item = itemstack.getItem();            
-            if (ConfigLoader.youAreHentai == true && item == ItemRegistry.juicerItem && maid.isContract() && (Math.random()<0.1) ) { 
+            if (ConfigLoader.areYouHentai == true && item == ItemRegistry.juicerItem && maid.isContract() &&
+                    maid.isMaidContractOwner(player) && (Math.random()<ConfigLoader.dropOrangeJuiceChance) ) { 
                 maid.dropItem(ItemRegistry.orangejuiceItem, 1);
                 maid.playLittleMaidSound(EnumSound.laughter, false);
+                player.addStat(AchievementLoader.kingOfHentai);
             }
         }
     }        

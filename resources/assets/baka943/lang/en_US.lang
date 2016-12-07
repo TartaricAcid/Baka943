@@ -1,6 +1,16 @@
+#Acievement
+achievement.baka943.kingOfHentai=King Of Hentai.
+achievement.baka943.kingOfHentai.desc=Get Orange Juice From A Maid.
+
 #Block
 tile.blockGuide.name=Guide Block
 tile.invisibleLight.name=Invisible Light
+
+#Config
+baka943.config.useTEToTickInvisbleLightDes=Whether using a TileEntity to help tick the invisible light. Set to true will enhance the performance of Invisible Light, but might cause a potential lag.
+baka943.config.showNonTEInvisbleLightDes=Set to true will show the invisible light which doesn't have a TileEntity when the useTileEntityToTickInvisibleLight mode is on.
+baka943.config.areYouHentai=Are you HENTAI? (true: yes, you are right; false: no, I am a serious people)
+baka943.config.dropOrangeJuiceChance=The chance that orange juice drop from maid. [default: 0.1; range: 0 ~ 1.0]
 
 #Item
 item.infiniteHoeActive.name=Infinite Hoe
@@ -14,7 +24,3 @@ baka943.tip.block.invisible_light=§3Just A Simple Invisible Light
 baka943.tip.item.infinite_hoe_active=§4Active
 baka943.tip.item.infinite_hoe_inactive=§eInactive
 
-#Config
-baka943.config.useTEToTickInvisbleLightDes=Whether using a TileEntity to help tick the invisible light. Set to true will enhance the performance of Invisible Light, but might cause a potential lag.
-baka943.config.showNonTEInvisbleLightDes=Set to true will show the invisible light which doesn't have a TileEntity when the useTileEntityToTickInvisibleLight mode is on.
-baka943.config.areYouHentai=Are you HENTAI? (true: yes, you are right; false: no, I am a serious people)
